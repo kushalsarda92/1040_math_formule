@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.math_formule"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.math_formule.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.math_formule.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.EnterActivity"
+            android:label="@string/title_activity_enter" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.DerivActivity"
+            android:label="@string/title_activity_deriv" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.IntegActivity"
+            android:label="@string/title_activity_integ" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.CompActivity"
+            android:label="@string/title_activity_comp" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.BasDerivActivity"
+            android:label="@string/title_activity_bas_deriv" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.ComDerivActivity"
+            android:label="@string/title_activity_com_deriv" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.TrigActivity"
+            android:label="@string/title_activity_trig" >
+        </activity>
+        <activity
+            android:name="com.example.math_formule.AlgeActivity"
+            android:label="@string/title_activity_alge" >
+        </activity>
+    </application>
+
+</manifest>

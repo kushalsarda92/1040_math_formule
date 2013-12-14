@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plus"
+    tools:context=".DerivActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="The derivative of a function can be geometrically interpreted as the slope of the curve of the mathematical function f(x) plotted as a function of x. But its implications for the modeling of nature go far deeper than this simple geometric application might imply. After all, you can see yourself drawing finite triangles to discover slope, so why is the derivative so important? Its importance lies in the fact that many physical entities such as velocity, acceleration, force and so on are defined as instantaneous rates of change of some other quantity. The derivative can give you a precise intantaneous value for that rate of change and lead to precise modeling of the desired quantity."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="DERIVATIVE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+       
+</RelativeLayout>

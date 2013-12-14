@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plus"
+    tools:context=".EnterActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="1000dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:text="ANDROID MATH FORMULA"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="62dp"
+        android:text="APP"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/entbutton1"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entbutton2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp"
+        android:text="DERIVATIVE" />
+
+    <Button
+        android:id="@+id/entbutton2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entbutton3"
+        android:layout_below="@+id/entbutton1"
+        android:layout_marginTop="17dp"
+        android:text="INTEGRATION" />
+
+    <Button
+        android:id="@+id/entbutton3"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entbutton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="COMPARISION" />
+
+    <Button
+        android:id="@+id/entbutton4"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entbutton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ALGEBRIC" />
+
+    <Button
+        android:id="@+id/entbutton5"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="TRIGNOMETRIC" />
+   
+</RelativeLayout>

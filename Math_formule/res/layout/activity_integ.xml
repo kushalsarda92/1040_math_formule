@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plus"
+    tools:context=".IntegActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="The integral of a function can be geometrically interpreted as the area under the curve of the mathematical function f(x) plotted as a function of x. You can see yourself drawing a large number of blocks to appproximate the area under a complex curve, getting a better answer if you use more blocks. The integral gives you a mathematical way of drawing an infinite number of blocks and getting a precise analytical expression for the area. That&apos;s very important for geometry - and profoundly important for the physical sciences where the definitions of many physical entities can be cast in a mathematical form like the area under a curve."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="INTEGRATION"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+</RelativeLayout>
